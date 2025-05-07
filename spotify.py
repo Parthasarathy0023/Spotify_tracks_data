@@ -45,7 +45,7 @@ print("\n The dataframe is below:")
 print(df)
 
 # Save metadata to csv file
-df.to_csv("spotify_data_adiyae_kolluthey_.csv",index=False)
+df.to_csv("spotify_data.csv",index=False)
 
 # Bar graph
 features=["Popularity","Duration"]
